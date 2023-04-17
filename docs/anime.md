@@ -217,6 +217,10 @@ pageClass: routes
 
 <Route author="cssxsh" example="/dlsite/campaign/home" path="/dlsite/campaign/:type/:free?" :paramsDesc="['类型，同上表', '只看免费，任意值开启，为空关闭']"/>
 
+### Ci-en 创作者文章
+
+<Route author="nczitzk" example="/dlsite/ci-en/:id/article" path="/dlsite/ci-en/7400/article" :paramsDesc="['创作者 id，可在对应创作者页 URL 中找到']"/>
+
 ## ebb.io
 
 ### ebb
@@ -615,6 +619,12 @@ Sources
 ### 漫画更新
 
 <Route author="KellyHwong" path="/cartoonmad/comic/:id" example="/cartoonmad/comic/5827" :paramsDesc="['漫画ID']" radar="1"/>
+
+## 番组放送
+
+### 开播提醒
+
+<Route author="x2cf" example="/bgmlist/onair/zh-Hans" path="/bgmlist/onair/:lang?" :paramsDesc="['语言']" radar="1" rssbud="1" />
 
 ## 风之动漫
 
